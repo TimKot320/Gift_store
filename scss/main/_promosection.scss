@@ -1,0 +1,38 @@
+.promosection {
+	height: 700px;
+	background: $bg_color2 url("../img/bg1.jpg") right top no-repeat;
+	
+	&__container {
+		padding: 154px 10px 0px 10px;
+	}
+
+	&__title {
+		display: none;
+	}
+
+	&__subtitle {
+		font-weight: 200;
+		font-size: 56px;
+		line-height: 64px;
+		color: $color_font;
+		max-width: 470px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 140%;
+		color: $color_font;
+		margin: 49px 0px 52px 0px;
+	}
+
+	&__btn {
+		font-size: 18px;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		background: $color_btn;
+		border-radius: 5px;
+		padding: 20px 33px;
+	}
+}

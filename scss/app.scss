@@ -1,0 +1,24 @@
+// Обнуление стилей
+@import "./null";
+// Шрифты
+@import "./fonts/fonts";
+// Переменные
+@import "./vars";
+// Миксины 
+@import "./mixin";
+
+// Общие стили и служебные классы
+@import "./settings";
+// Хэдер
+@import "./header/header";
+
+// Promosection
+@import "./main/promosection";
+// Working
+@import "./main/working";
+// Gifts
+@import "./main/gifts";
+// Registration
+@import "./main/registration";
+
+

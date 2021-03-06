@@ -1,0 +1,35 @@
+.working {
+	height: 600px;
+	background:  url("../img/bg2.jpg") left top no-repeat, $bg_color2;
+
+	&__banner {
+		position: relative;
+		left: 50%;
+		width: 50%;
+		padding: 125px 0px 0px 115px;
+	}
+	
+	&__title {
+		font-size: 32px;
+		line-height: 140%;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 140%;
+		text-align: justify;
+		padding: 24px 0px 45px 0px;
+		max-width: 441px;
+	}
+
+	&__link {
+		font-size: 18px;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+		color: $color_btn;
+		border: 1px solid $color_btn;
+		border-radius: 5px;
+		padding: 20px 28px;
+	}
+}
